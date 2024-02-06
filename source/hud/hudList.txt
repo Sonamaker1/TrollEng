@@ -1,0 +1,177 @@
+haxelib run refactor rename source .SongSelectState states.SongSelectState
+haxelib run refactor rename source .SquareTransitionSubState states.SquareTransitionSubstate
+haxelib run refactor rename source .ChapterMenuState states.ChapterMenuState
+haxelib run refactor rename source .CreditsState states.CreditsState
+haxelib run refactor rename source .FreeplayState states.FreeplayState
+haxelib run refactor rename source .GameOverSubState states.GameOverSubState
+haxelib run refactor rename source .GameplayChangersSubState states.GameplayChangersSubstate
+haxelib run refactor rename source .LoadingState states.LoadingState
+haxelib run refactor rename source .MainMenuState states.MainMenuState
+haxelib run refactor rename source .MusicBeatState states.MusicBeatState
+haxelib run refactor rename source .MusicBeatSubState states.MusicBeatSubState
+haxelib run refactor rename source .PauseSubState states.PauseSubState
+haxelib run refactor rename source .PlayerSettings objects.PlayerSettings
+haxelib run refactor rename source .PlayState states.PlayState
+haxelib run refactor rename source .ResetScoreSubState states.ResetScoreSubState
+haxelib run refactor rename source .SinnerState states.SinnerState
+haxelib run refactor rename source .StartupState states.StartupState
+haxelib run refactor rename source .StoryMenuState states.StoryMenuState
+haxelib run refactor rename source .TestingState states.TestingState
+haxelib run refactor rename source .TitleState states.TitleState
+haxelib run refactor rename source .UpdaterState states.UpdaterState
+haxelib run refactor rename source .VideoPlayerState states.VideoPlayerState
+
+
+haxelib run refactor rename source ----- gameplay.----
+
+haxelib run refactor rename source Boyfriend gameplay.Boyfriend
+haxelib run refactor rename source BGSprite gameplay.BGSprite
+
+haxelib run refactor rename source Cache data.Cache
+haxelib run refactor rename source ChapterData data.ChapterData
+
+haxelib run refactor rename source Alphabet objects.Alphabet
+haxelib run refactor rename source AttachedSprite objects.AttachedSprite
+haxelib run refactor rename source AttachedText objects.AttachedText
+haxelib run refactor rename source Bread objects.Bread
+
+haxelib run refactor rename source Character objects.Character
+haxelib run refactor rename source CheckboxThingie objects.CheckboxThingie
+haxelib run refactor rename source ClientPrefs objects.ClientPrefs
+haxelib run refactor rename source Conductor objects.Conductor
+haxelib run refactor rename source Controls objects.Controls
+haxelib run refactor rename source CoolUtil tools.CoolUtil
+haxelib run refactor rename source CustomFadeTransition objects.CustomFadeTransition
+haxelib run refactor rename source Discord objects.Discord
+haxelib run refactor rename source FadeTransitionSubState states.FadeTransitionSubState
+haxelib run refactor rename source FlxSprite3D objects.FlxSprite3D
+haxelib run refactor rename source FlxUIDropDownMenuCustom objects.FlxUIDropDownMenuCustom
+haxelib run refactor rename source FNFGame objects.FNFGame
+haxelib run refactor rename source Github objects.Github
+haxelib run refactor rename source HealthIcon objects.HealthIcon
+haxelib run refactor rename source Highscore objects.Highscore
+haxelib run refactor rename source import objects.import
+haxelib run refactor rename source InputFormatter objects.InputFormatter
+haxelib run refactor rename source JudgmentManager objects.JudgmentManager
+haxelib run refactor rename source Main objects.Main
+haxelib run refactor rename source Note gameplay.Note
+haxelib run refactor rename source NoteObject gameplay.NoteObject
+haxelib run refactor rename source NoteSplash gameplay.NoteSplash
+haxelib run refactor rename source OldHighscore objects.OldHighscore
+haxelib run refactor rename source Paths objects.Paths
+haxelib run refactor rename source Prompt objects.Prompt
+haxelib run refactor rename source Section objects.Section
+haxelib run refactor rename source Song objects.Song
+
+haxelib run refactor rename source Stage objects.Stage
+haxelib run refactor rename source Stats objects.Stats
+
+haxelib run refactor rename source StrumNote objects.StrumNote
+haxelib run refactor rename source SubtitleDisplay objects.SubtitleDisplay
+
+
+animateatlas:
+haxelib run refactor rename source AtlasFrameMaker animateatlas.AtlasFrameMaker
+displayobject
+haxelib run refactor rename source HelperEnums objects.HelperEnums
+haxelib run refactor rename source JSONData2020 objects.JSONData2020
+haxelib run refactor rename source JSONData objects.JSONData
+haxelib run refactor rename source Main objects.Main
+tilecontainer
+
+editors:
+haxelib run refactor rename source CharacterEditorState states.CharacterEditorState
+haxelib run refactor rename source ChartingState states.ChartingState
+haxelib run refactor rename source MasterEditorMenu objects.MasterEditorMenu
+haxelib run refactor rename source StageBuilderState states.StageBuilderState
+haxelib run refactor rename source StageEditorState states.StageEditorState
+haxelib run refactor rename source TestState states.TestState
+
+flixel:
+addons
+haxelib run refactor rename source FlxCamera objects.FlxCamera
+haxelib run refactor rename source FlxObject objects.FlxObject
+haxelib run refactor rename source FlxSprite2 objects.FlxSprite2
+graphics
+input
+math
+sound
+system
+text
+tweens
+
+gallery:
+haxelib run refactor rename source ComicsMenuState states.ComicsMenuState
+haxelib run refactor rename source GalleryMenuState states.GalleryMenuState
+haxelib run refactor rename source JukeboxState states.JukeboxState
+haxelib run refactor rename source TitleGalleryState states.TitleGalleryState
+
+gameplay:
+playfields
+
+hud:
+haxelib run refactor rename source AdvancedHUD objects.AdvancedHUD
+haxelib run refactor rename source BaseHUD objects.BaseHUD
+haxelib run refactor rename source CommonHUD objects.CommonHUD
+haxelib run refactor rename source Hitbar objects.Hitbar
+haxelib run refactor rename source HScriptedHUD objects.HScriptedHUD
+hudList.txt
+haxelib run refactor rename source KadeHUD objects.KadeHUD
+haxelib run refactor rename source PsychHUD objects.PsychHUD
+
+lime:
+_internal
+media
+
+math:
+haxelib run refactor rename source Vector3 objects.Vector3
+haxelib run refactor rename source VectorHelpers objects.VectorHelpers
+
+modchart:
+events
+haxelib run refactor rename source EventTimeline objects.EventTimeline
+haxelib run refactor rename source HScriptModifier objects.HScriptModifier
+haxelib run refactor rename source Modifier objects.Modifier
+modifiers
+haxelib run refactor rename source ModManager objects.ModManager
+haxelib run refactor rename source NoteModifier objects.NoteModifier
+haxelib run refactor rename source SubModifier objects.SubModifier
+
+openfl:
+display
+
+options:
+haxelib run refactor rename source ComboOffsetSubState states.ComboOffsetSubstate
+haxelib run refactor rename source NewBindsSubState states.NewBindsSubstate
+haxelib run refactor rename source NoteOffsetState states.NoteOffsetState
+haxelib run refactor rename source NotesSubState states.NotesSubState
+haxelib run refactor rename source OptionMacro objects.OptionMacro
+haxelib run refactor rename source OptionsState states.OptionsState
+haxelib run refactor rename source OptionsSubState states.OptionsSubState
+haxelib run refactor rename source QuantNotesSubState states.QuantNotesSubState
+
+proxies:
+haxelib run refactor rename source ProxyField objects.ProxyField
+haxelib run refactor rename source ProxySprite objects.ProxySprite
+
+scripts:
+haxelib run refactor rename source FunkinHScript objects.FunkinHScript
+haxelib run refactor rename source FunkinLua objects.FunkinLua
+haxelib run refactor rename source FunkinScript objects.FunkinScript
+haxelib run refactor rename source Globals objects.Globals
+haxelib run refactor rename source Macro objects.Macro
+
+shaders:
+haxelib run refactor rename source AdjustColor objects.AdjustColor
+haxelib run refactor rename source BlendModeEffect objects.BlendModeEffect
+haxelib run refactor rename source ColorSwap objects.ColorSwap
+haxelib run refactor rename source LoadShader objects.LoadShader
+haxelib run refactor rename source OverlayShader objects.OverlayShader
+haxelib run refactor rename source WiggleEffect objects.WiggleEffect
+
+sowy:
+haxelib run refactor rename source SowyBaseButton objects.SowyBaseButton
+haxelib run refactor rename source Sowy objects.Sowy
+haxelib run refactor rename source TGTMenuShit objects.TGTMenuShit
+haxelib run refactor rename source TGTSquareButton objects.TGTSquareButton
+haxelib run refactor rename source TGTTextButton objects.TGTTextButton
