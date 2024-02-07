@@ -65,7 +65,7 @@
 	<define name="CRASH_HANDLER" if="desktop" />
 	<!-- -->
 	<!-- <define name="USE_EPIC_JUDGEMENT"/> -->
-
+	<define name="SHOW_DEBUG_TRACES"/>
 	<define name="MULTICORE_LOADING" if="windows" />
 
 	<!-- _______________________________ Libraries ______________________________ -->
