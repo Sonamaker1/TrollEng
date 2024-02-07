@@ -183,7 +183,7 @@ class FlxUIDropDownMenuCustom extends FlxUIGroup implements IFlxUIWidget impleme
 			dropPanel = new FlxUI9SliceSprite(0, 0, FlxUIAssets.IMG_BOX, rect, [1, 1, 14, 14]);
 		}
 
-		if (DataList != null)
+		if (DataList != null && DataList.length>0)
 		{
 			for (i in 0...DataList.length)
 			{

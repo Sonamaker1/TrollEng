@@ -1,4 +1,4 @@
-package objects.sprites;
+package;
 
 import flash.media.Sound;
 import flixel.FlxG;
