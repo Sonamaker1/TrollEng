@@ -57,15 +57,24 @@ class Hitbar extends FlxSpriteGroup {
 		mainBar.alpha = 0.5;
 		add(mainBar);
 
-		var epicWindow = new FlxSprite().makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER5)), hitbarHeight, 0xFFE367E5);
+		var epicWindow = new FlxSprite();
+		var sickWindow = new FlxSprite();
+		var goodWindow = new FlxSprite();
+		var badWindow  = new FlxSprite();
+		try{
+			epicWindow.makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER5)), hitbarHeight, 0xFFE367E5);
+			sickWindow.makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER4)), hitbarHeight, 0xFF00A2E8);
+			goodWindow.makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER3)), hitbarHeight, 0xFFB5E61D);
+			badWindow.makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER2)), hitbarHeight, FlxColor.BLACK);
+		}
+		catch (err){
+			trace(err);
+		}
 		epicWindow.alpha = 0.6;
-		var sickWindow = new FlxSprite().makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER4)), hitbarHeight, 0xFF00A2E8);
 		sickWindow.alpha = 0.6;
-		var goodWindow = new FlxSprite().makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER3)), hitbarHeight, 0xFFB5E61D);
 		goodWindow.alpha = 0.6;
-		var badWindow = new FlxSprite().makeGraphic(Std.int(hitbarPxPerMs * judgeManager.getWindow(TIER2)), hitbarHeight, FlxColor.BLACK);
 		badWindow.alpha = 0.6;
-
+		
 		add(badWindow);
 		add(goodWindow);
 		add(sickWindow);
