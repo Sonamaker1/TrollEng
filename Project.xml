@@ -70,14 +70,14 @@
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
-	<haxelib name="flixel" />
-	<haxelib name="flixel-ui"/>
-	<haxelib name="flixel-addons"/>
+	<haxelib name="flixel" version="5.6.0"/>
+	<haxelib name="flixel-ui" version="2.4.0"/>
+	<haxelib name="flixel-addons" version="3.2.1"/>
 
-	<haxelib name="discord_rpc" if="desktop"/>
+	<haxelib name="discord_rpc" if="desktop" version="git"/>
 
-	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
-	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
+	<haxelib name="hxCodec" if="VIDEOS_ALLOWED" version="3.0.2"/>
+	<haxelib name="linc_luajit" if="LUA_ALLOWED" version="git"/>
 	
 	<haxelib name="faxe" if='switch'/>
 	<haxelib name="hxcpp-debug-server" if="debug" unless="telemetry"/> 
